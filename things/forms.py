@@ -3,7 +3,7 @@
 from django import forms
 from .models import Thing
 
-class SignUpForm(forms.ModelForm):
+class ThingForm(forms.ModelForm):
     #allows us to relate form to models
     class Meta:
         model = Thing;
